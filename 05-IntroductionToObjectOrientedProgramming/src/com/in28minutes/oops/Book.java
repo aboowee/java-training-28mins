@@ -1,7 +1,7 @@
 package com.in28minutes.oops;
 
 public class Book {
-	
+
 	private int noOfCopies;
 
 	public Book(int noOfCopies) {
@@ -19,6 +19,10 @@ public class Book {
 
 	public void decreaseNoOfCopies(int howMuch) {
 		setNoOfCopies(this.noOfCopies - howMuch);
+	}
+
+	public int numberOfCopies() {
+		return noOfCopies;
 	}
 
 }
