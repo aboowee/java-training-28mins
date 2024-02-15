@@ -33,6 +33,10 @@ public class BiNumber {
 		return number1 * number2;
 	}
 
+	public int divide() {
+		return number1 / number2;
+	}
+
 	public void doubleValue() {
 		this.number1 *= 2;
 		this.number2 *= 2;
